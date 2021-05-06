@@ -1,0 +1,23 @@
+.container-card {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.container-card > div {
+    margin-left: 10px;
+}
+
+.container-card > div > p {
+    margin: 0px;
+}
+
+.container-card > div > p + p {
+    margin-top: 5px;
+}
